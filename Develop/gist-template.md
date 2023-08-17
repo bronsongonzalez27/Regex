@@ -52,11 +52,13 @@ Bracket expressions "[]" define a character class. Their purpose allows you to m
 ### Greedy and Lazy Match
 Greedy and Lazy match 
 ### Boundaries
-
+Boundaries in regex are used to define positions where a condition is met, common boundaries are 
+* '/b' matches a word boundary
+* '/B matches a position that is not a word boundary
 ### Back-references
-
+ Back-references allow you to match the same text that was previously matched by a capturing group. They are specified using \ followed by the group number. For example, (abc)\1 would match "abcabc".
 ### Look-ahead and Look-behind
-
+ Look-ahead and look-behind assertions are used to assert that a certain pattern is (or isn't) ahead of or behind the current position, without including it in the match. They are denoted by (?=...) for positive look-ahead and (?<=...) for positive look-behind.
 ## Author
 
 Thank you for listening and reading my tutorial explaining Regex terms. For further information or any questions you will have please contact me here : https://github.com/bronsongonzalez27
