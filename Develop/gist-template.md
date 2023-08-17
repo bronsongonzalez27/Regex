@@ -46,11 +46,11 @@ Flags, or modifiers, modify the behavior of a regex matching, some examples of f
 * g: Global matching (find all occurrences).
 * m: Treat the input as multiple lines.
 ### Grouping and Capturing
-
+Grouping and matching parentheses "()" are used to group eleements together. This is useful to apply quantifiers to a group of characters. Groups also capture the matched string for later purposes.
 ### Bracket Expressions
-
+Bracket expressions "[]" define a character class. Their purpose allows you to match a single character from a selected set of characters, for example '[aeiou]'
 ### Greedy and Lazy Match
-
+Greedy and Lazy match 
 ### Boundaries
 
 ### Back-references
@@ -59,4 +59,6 @@ Flags, or modifiers, modify the behavior of a regex matching, some examples of f
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Thank you for listening and reading my tutorial explaining Regex terms. For further information or any questions you will have please contact me here : https://github.com/bronsongonzalez27
+
+
