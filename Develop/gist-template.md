@@ -4,7 +4,7 @@ Hello, my name is Bronson Gonzalez, I am going to teach you about regex's (regul
 
 ## Summary
 
-RegEx, is short for regular expressions are a set of characters that creates patterns, RegEx can be used to find information in a database.
+RegEx, is a short term for the word regular expressions.  Regex are a set of characters that creates patterns. RegEx can be used to find information in a database.
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -33,9 +33,9 @@ Quantifiers are used to specify hows many times a particular element or group oc
 * {n,}: Matches n or more occurrences.
 * {n,m}: Matches between n and m occurrences.
 ### OR Operator
-
+OR operators are used in regular expressions to match patterns. It's represented by a vertical bar "|" character. When used in a regex pattern, it will match the left or right side, an example of this would be rainy|sunny.
 ### Character Classes
-
+Character classes are used to define a set of characters that will match
 ### Flags
 
 ### Grouping and Capturing
