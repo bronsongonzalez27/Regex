@@ -35,9 +35,16 @@ Quantifiers are used to specify hows many times a particular element or group oc
 ### OR Operator
 OR operators are used in regular expressions to match patterns. It's represented by a vertical bar "|" character. When used in a regex pattern, it will match the left or right side, an example of this would be rainy|sunny.
 ### Character Classes
-Character classes are used to define a set of characters that will match
+Character classes are used to define a set of characters that will match at a specified position. 
+Some examples of this would include:
+* [a-z]: Matches any lowercase letter.
+* [0-9]: Matches any digit.
+* [A-Za-z]: Matches any letter (case-insensitive).
 ### Flags
-
+Flags, or modifiers, modify the behavior of a regex matching, some examples of flags are:
+* i: Case-insensitive matching.
+* g: Global matching (find all occurrences).
+* m: Treat the input as multiple lines.
 ### Grouping and Capturing
 
 ### Bracket Expressions
